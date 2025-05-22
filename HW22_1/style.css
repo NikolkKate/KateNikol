@@ -1,0 +1,49 @@
+h2,h1 {
+		font-size: 30px; 
+		color:#faff05; 
+		text-shadow: 3px 3px 6px rgb(0, 0, 0, 1);
+		text-align: center;
+		}
+
+.parent {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh; 
+}
+
+.container {
+    background-color: #e5c08291;
+    padding: 20px 30px;
+    max-width: 1024px;
+    border-radius: 10px;
+}
+
+li{
+
+	color: #03a430;
+}
+
+.contacts{
+	color: green;
+	font-size: 15px;
+}
+
+.rotate {
+  animation: spin 3s linear ;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+img.rotate:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
